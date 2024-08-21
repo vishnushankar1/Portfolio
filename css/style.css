@@ -63,16 +63,7 @@ html {
   /* Full viewport height */
 }
 
-.video-background1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-}
+
 
 #bg-video1 {
   position: absolute;
@@ -124,13 +115,7 @@ html {
   z-index: 0;
 }
 
-.video-background {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  border-radius: 30%;
-}
+
 
 #bg-video {
   position: absolute;
@@ -174,15 +159,7 @@ html {
   font-size: 40vw;
 }
 
-.video-background2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-}
+
 
 #bg-video2 {
   position: absolute;
@@ -201,9 +178,7 @@ html {
   color: #fff;
 }
 
-#ftco-navbar {
-  background-color:#000 !important;
-}
+
 
 
 h1.big2 {
