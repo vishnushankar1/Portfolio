@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply h-full;
+  }
+  body {
+    @apply h-full bg-gray-50 text-gray-900 antialiased;
+  }
+  #root {
+    @apply h-full;
+  }
+}
+
+@layer components {
+  /* Scrollbar styling */
+  .custom-scroll::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+  .custom-scroll::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .custom-scroll::-webkit-scrollbar-thumb {
+    @apply bg-gray-200 rounded-full;
+  }
+  .custom-scroll::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-300;
+  }
+
+  /* Typing cursor */
+  .typing-cursor::after {
+    content: '|';
+    @apply animate-blink text-brand-500 ml-0.5 font-light;
+  }
+
+  /* Focus ring utility */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-1;
+  }
+}
